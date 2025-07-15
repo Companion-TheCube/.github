@@ -7,7 +7,7 @@ import sys
 # ─── CONFIGURATION ─────────────────────────────────────────────────────────────
 
 # Personal access token with 'repo' scope (set in env or paste here)
-GITHUB_TOKEN = os.getenv("ORG_PAT")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 ORG               = "Companion-TheCube"
 DIRECTORY_REPO    = "TheCube-apps-directory"
