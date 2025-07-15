@@ -4,6 +4,7 @@ name: Update Apps Directory on New App-*
 on:
   schedule:
   - cron: 0 2 * * *
+  workflow_dispatch:
 
 jobs:
   update-directory:
