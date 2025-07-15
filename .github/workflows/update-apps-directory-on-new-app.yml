@@ -2,8 +2,8 @@
 name: Update Apps Directory on New App-*
 
 on:
-  repository:
-    types: [created]
+  schedule:
+  - cron: 0 2 * * *
 
 jobs:
   update-directory:
